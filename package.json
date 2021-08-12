@@ -1,0 +1,35 @@
+{
+  "name": "shipment-tracker",
+  "version": "1.0.0",
+  "description": "Shipment Tracking Application is a REST APIs based application that lets you track shipping orders in a transparent and public way",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "blockchain",
+    "shipment",
+    "deliery",
+    "tracker"
+  ],
+  "author": "@elmol",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.5.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17"
+  },
+  "dependencies": {
+    "ethers": "^5.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-status-codes": "^2.1.4"
+  }
+}
